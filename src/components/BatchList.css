@@ -1,0 +1,97 @@
+.batch-list-container {
+    background: #242424;
+    padding: 0;
+    border-radius: 12px;
+    border: 1px solid #333;
+    width: 100%;
+    overflow: hidden;
+}
+
+.list-header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+.list-header h3 {
+    margin: 0;
+    color: #fff;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.batch-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.batch-table th {
+    padding: 1.2rem 2rem;
+    background: #2a2a2a;
+    color: #888;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.batch-table td {
+    padding: 1.2rem 2rem;
+    border-bottom: 1px solid #333;
+}
+
+.batch-num {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #646cff;
+}
+
+.stage-badge {
+    background: #333;
+    color: #646cff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    display: inline-block;
+    border: 1px solid #646cff33;
+}
+
+.status-tag {
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-tag.in-progress {
+    background: rgba(100, 108, 255, 0.1);
+    color: #646cff;
+}
+
+.action-btn {
+    background: #333;
+    border: 1px solid #444;
+    color: #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.action-btn:hover {
+    background: #444;
+    color: #fff;
+    border-color: #666;
+}
+
+.empty-state {
+    padding: 4rem;
+    background: #242424;
+    border-radius: 12px;
+    border: 1px dashed #444;
+    color: #666;
+}

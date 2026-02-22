@@ -1,0 +1,22 @@
+.batch-context {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border-left: 4px solid #646cff;
+}
+
+.batch-context p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+.batch-context strong {
+  color: #fff;
+}
+
+.form-group input:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+}

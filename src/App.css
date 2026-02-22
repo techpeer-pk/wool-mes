@@ -1,0 +1,125 @@
+/* App Global Styles */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.app-header {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #333;
+    margin-bottom: 2rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logo-section h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #646cff;
+}
+
+.user-badge {
+    background: rgba(100, 108, 255, 0.1);
+    color: #646cff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid rgba(100, 108, 255, 0.2);
+}
+
+.logout-btn {
+    background: transparent;
+    border: 1px solid #444;
+    color: #888;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logout-btn:hover {
+    border-color: #646cff;
+    color: #646cff;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    gap: 2rem;
+    padding: 0 2rem 4rem 2rem;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.stat-card {
+    background: #242424;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #333;
+}
+
+.stat-card h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-num {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0.5rem 0 0 0;
+    color: #646cff;
+}
+
+.dashboard-actions {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pulse {
+    animation: pulse-shadow 2s infinite;
+}
+
+@keyframes pulse-shadow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(100, 108, 255, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(100, 108, 255, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(100, 108, 255, 0);
+    }
+}
